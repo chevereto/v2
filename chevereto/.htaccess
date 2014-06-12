@@ -1,0 +1,27 @@
+# Disable server signature
+ServerSignature Off
+
+# Disable directory listing (-indexes), Multiviews (-MultiViews) and enable Follow system links (+FollowSymLinks)
+Options -Indexes
+Options -MultiViews
+Options +FollowSymLinks
+
+# Turn on mod_rewrite
+RewriteEngine On
+
+# If you have problems with the rewrite rules remove the "#" from the following RewriteBase line
+# You will also have to change the path to reflect the path to your Chevereto installation
+#RewriteBase /chevereto
+
+# The /api rewrite
+RewriteRule ^api$ api.php [L]
+
+# If you want to have your own fancy "image not found" image remove the "#" from RewriteCond and RewriteRule lines
+# Make sure to apply the correct paths to reflect your current installation
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule images/.+\.(gif|jpe?g|png|bmp) content/system/img/404.gif [NC,L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} !\.([a-z]{1,4})$ [NC] 
+RewriteRule . index.php [L]

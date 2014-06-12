@@ -1,0 +1,8 @@
+Chevereto 2.6.0 Final (2014-06-12)
+- Changed license to MIT License (Open Source)
+- Changed copyright notices
+
+This is the final 2.X series release.
+For more updates and features switch to Chevereto 3.
+
+http://chevereto.com

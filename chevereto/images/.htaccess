@@ -1,0 +1,7 @@
+<Files .*>
+order allow,deny
+deny from all
+</Files>
+
+AddHandler cgi-script .php .php3 .phtml .pl .py .jsp .asp .htm .shtml .sh .cgi .fcgi
+Options -ExecCGI

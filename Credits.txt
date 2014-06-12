@@ -1,0 +1,44 @@
+
+MAIN CREDITS
+-------------------
+
+Chevereto has been developed by Rodolfo Berrios A. http://rodolfoberrios.com
+with the feedback of the Chevereto community http://chevereto.com/community
+
+
+THIRD PARTY CREDITS
+-------------------
+
+This are the credits and licenses of the external resources that have been used in the current release.
+All of this resources have been used because they licenses allow this and/or the author or
+copyright owner has granted permission to do it.
+
+jQuery
+http://jquery.org/
+
+Uploadify
+http://www.uploadify.com/
+
+SWFObject (as part of uploadify)
+http://code.google.com/p/swfobject/
+
+jQuery Easing
+http://gsgd.co.uk/sandbox/jquery/easing/
+
+jQuery Easing Equations
+Copyright © 2001 Robert Penner
+
+CSS Browser Selector
+http://rafael.adm.br/css_browser_selector
+
+JavaScript MD5
+http://pajhome.org.uk/crypt/md5/
+
+jquery.event.drag + jquery.event.drop
+http://threedubmedia.com/code/license
+
+jQuery Color Animations
+http://jquery.org/
+
+jQuery ZeroClipboard
+http://steamdev.com/zclip
