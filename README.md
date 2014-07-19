@@ -11,6 +11,10 @@ Both systems where crafted by the same person and they share the same *feel* but
 
 Chevereto 3.X comes with user accounts, galleries, responsive layout and more. You can find feature differences in the [Chevereto comparision table](http://chevereto.com/free). 
 
+
+###Features
+Chevereto 2.6.0 features are listed in the [Chevereto comparision table](http://chevereto.com/free) and it has all the needed features to host an one-click image hosting website. You can see how Chevereto 2.6.0 looks [here](http://chevereto.com/src/img/screens/V2_login.png) and [here](http://chevereto.com/src/img/screens/V2_home.png) and [i.godlike.cl](http://i.godlike.cl/) is a real example of a Chevereto 2.X website running in password protected mode: 
+
 ###Updates
 Chevereto 2.6.0 actually is a very mature system and is the final release of Chevereto 2.X series. Updates will be only pushed only for security concerns and things like that.
 
