@@ -12,18 +12,16 @@ Both systems where crafted by the same person and they share the same *feel* but
 Chevereto 3.X comes with user accounts, galleries, responsive layout and more. You can find feature differences in the [Chevereto comparision table](http://chevereto.com/free). 
 
 ###Updates
-Chevereto 2.6.0 is the final release of 2.X series and there won't be any additional updates for new features or anything. Updates will be only pushed only for security concerns and things like that.
-
+Chevereto 2.6.0 actually is a very mature system and is the final release of Chevereto 2.X series. Updates will be only pushed only for security concerns and things like that.
 
 ###About the author
 Rodolfo Berrios is the creator of Chevereto which he started in 2007. You can find more about him in [his website](http://rodolfoberrios.com).
 
 ###License
-
 Chevereto 2.6.0 is copyrighted by Rodolfo Berríos and is released under the [MIT License](http://opensource.org/licenses/MIT). You can use Chevereto 2.6.0 freely in any project you want no strings attached.
 
 ##Minimum Requirements
-- PHP 5.0.0 with PDO, GD Library, cURL, BCMath
+- PHP 5.0 with PDO, GD Library, cURL, BCMath
 - MySQL 4
 
 ##Install
