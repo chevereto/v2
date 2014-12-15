@@ -40,9 +40,9 @@ $config['auto_lang'] = true; // Values: true | false
 /**
  * Site details
  */ 
-$config['site_name']		= 'Chevereto';
-$config['doctitle']			= 'Chevereto image hosting script';
-$config['meta_description'] = 'Chevereto is a free image hosting service powered by Chevereto';
+$config['site_name']		= 'MyWebsite';
+$config['doctitle']			= 'MyWebsite image hosting';
+$config['meta_description'] = 'MyWebsite is a free image hosting service powered by Chevereto image hosting script';
 $config['meta_keywords']	= 'images, photos, image hosting, photo hosting, free image hosting';
 
 
