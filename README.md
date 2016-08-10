@@ -1,9 +1,9 @@
+Chevereto 2.6.0
+=
 Chevereto is an image hosting script that allows you to create a beautiful image hosting website in your own server. [Chevereto.com](https://chevereto.com)
 
 ![Chevereto 2.6.0 home](https://chevereto.com/src/img/screens/version/2/home.png)
 
-Chevereto 2.6.0
-=
 ###About this repo
 This is the repository of Open Source Chevereto which has been pushed from Chevereto 2.X series. This release is very stable and solid but is old and it doesn't come with support for mobile devices. If you are looking for recent versions of Chevereto (free to use) you should check [Chevereto Free](https://chevereto.com/free).
 
