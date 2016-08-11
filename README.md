@@ -1,6 +1,10 @@
+<p align="center">
+	<a href="https://chevereto.com/"><img src="https://chevereto.com/app/themes/v3/img/chevereto-large.png" alt="Chevereto"></a>
+</p>
+<p align="center">Chevereto is an image hosting script that allows you to create a beautiful and full featured image hosting website in your own server. It's your hosting and your rules, say goodbye to closures and restrictions. <a href="https://chevereto.com">Chevereto.com</a></p>
+
 Chevereto 2.6.0
 =
-Chevereto is an image hosting script that allows you to create a beautiful image hosting website in your own server. [Chevereto.com](https://chevereto.com)
 
 ![Chevereto 2.6.0 home](https://chevereto.com/src/img/screens/version/2/home.png)
 
