@@ -13,8 +13,8 @@
 				$email   = trim($_POST['email']);
 				$message = $_POST['message'];
 				
-				$to = 'inbox@chevereto.com';
-				$from = 'inbox@chevereto.com';
+				$to = 'inbox@chevereto.com'; // Your inbox email address
+				$from = 'inbox@chevereto.com'; // Sender of this form
 				$subject = 'Contact form example';
 			
 				$mailbody .= "Name: ".$name."\n";
@@ -44,11 +44,13 @@
 						$mail->AddAddress($to);						
 						$mail->AddReplyTo($email); // indicates ReplyTo headers	
 						$mail->Mailer = "mail"; // mail|smtp|sendmail						
-						//$mail->Host = ''; // SMTP host
-						//$mail->SMTPAuth = true; // Turn on SMTP auth (use when SMTP needs to indicate the user:password
-						//$mail->SMTPSecure = 'ssl'; // Values: ssl|tls
-						//$mail->Username = ''; // For SMTPAuth
-						//$mail->Password = ''; // For SMTPAuth
+						/*
+						$mail->Host = ''; // SMTP host
+						$mail->SMTPAuth = true; // Turn on SMTP auth (use when SMTP needs to indicate the user:password
+						$mail->SMTPSecure = 'ssl'; // Values: ssl|tls
+						$mail->Username = ''; // For SMTPAuth
+						$mail->Password = ''; // For SMTPAuth
+						*/
 						//$mail->SMTPDebug = 1; // Problems sending with SMTP? Uncomment this line to get the debug.
 						$mail->Timeout = 30;
 						$success = $mail->Send();
@@ -73,7 +75,7 @@
         <div class="contact-result <?php echo $contact_class; ?>"><?php echo $output; ?></div>
         <?php endif; ?>
         
-        <form method="post" action="<?php echo $_SERVER['REQUEST_URI']; ?>">
+        <form method="post">
         	<div><label for="name">Name:</label> <input type="text" name="name" id="name" /></div>
             <div><label for="email">E-mail:</label> <input type="text" name="email" id="email" /></div>
             <div><label for="message">Message:</label> <textarea name="message" id="message" ></textarea></div>
