@@ -21,7 +21,7 @@ if(!defined('access') or !access) die('This file cannot be directly accessed.');
 define('__CHV_TIME_EXECUTION_STARTS__', microtime(true));
 
 /*** Define current version ***/
-define('__CHV_VERSION__', '2.6.0');
+define('__CHV_VERSION__', '2.6.1');
 
 /*** Define default admin folder ***/
 define('__CHV_DEFAULT_ADMIN_FOLDER__', 'admin');
